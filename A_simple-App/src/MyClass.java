@@ -13,6 +13,6 @@ public class MyClass extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter writer = resp.getWriter();
-        Writer.write("Response Genarated");
+        writer.write("Response Genarated");
     }
 }
