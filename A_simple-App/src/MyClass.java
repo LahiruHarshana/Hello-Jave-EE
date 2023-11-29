@@ -8,7 +8,6 @@ import java.io.PrintWriter;
 import java.io.Writer;
 
 @WebServlet(urlPatterns="/customer")
-
 public class MyClass extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
