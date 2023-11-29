@@ -2,12 +2,12 @@
   <artifact type="war" name="hello">
     <output-path>$PROJECT_DIR$/out/artifacts/hello</output-path>
     <root id="archive" name="hello.war">
-      <element id="javaee-facet-resources" facet="Hello Jave EE/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Hello Jave EE" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="Hello Jave EE/web/Web" />
     </root>
   </artifact>
 </component>
